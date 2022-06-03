@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Navbar from "../components/Navbar"
 
 export default function About(){
     return (
@@ -7,6 +8,7 @@ export default function About(){
             <Link href="/">
                 <a>Voltar</a>
             </Link>
+            <Navbar />
         </>
     )
 }
